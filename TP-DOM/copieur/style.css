@@ -1,0 +1,19 @@
+label{
+    padding-right: 30px;
+}
+h1{
+    text-align: center;
+}
+
+table{
+    width:480px;
+    margin:auto;
+    font-size: 18px;
+    padding-top:20px ;
+}
+input{
+    padding:5px 35px
+}
+tr{
+    height: 50px;
+}

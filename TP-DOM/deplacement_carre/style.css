@@ -1,0 +1,22 @@
+body{
+    width: 800px;
+    margin:auto
+}
+
+
+#box{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    margin-top: 150px;
+    margin-left: 100px;
+    transition: 1s;
+   
+}
+button{
+    padding:5px 10px;
+    margin-top: 20px;
+    background-color: crimson;
+    color: white;
+    border-radius: 10px;
+}

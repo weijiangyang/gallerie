@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class='show'>
+        <input type='button' value='faire dispparaitre la calculatrice' id='btnA'>
+        <input type='button' value='faire appraitre la calculatrice' id='btnB'>
+    </div>
+    <div class="container">
+
+        <div id='calculatrice'>
+            <input type="number" id='numberLeft' value=''>
+            <select name="" id="select" value='+'>
+                <option value="">+</option>
+                <option value="">-</option>
+                <option value="">*</option>
+                <option value="">/</option>
+
+            </select>
+            <input type="number" id='numberRight'>
+            <button type='button' id='calculer'>Calculer</button>
+            <p id='affiche'></p>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

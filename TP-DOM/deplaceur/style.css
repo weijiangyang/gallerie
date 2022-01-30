@@ -1,0 +1,15 @@
+
+.box{
+    width: 60px;
+    height:60px;
+    background-color: chocolate;
+    margin:80px 40px;
+    position:relative;
+}
+:root{
+    --base: yellow;
+    --spacing: 80px;
+    --blur: 10px;
+   
+    
+  }
